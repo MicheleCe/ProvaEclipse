@@ -14,6 +14,7 @@ public class Main {
 		try {
 			List<FilmOnActorNameVO> filmOnActorList = filmOnActorName
 					.getAllFilmOnActorName(new FilmOnActorNameDTO("PENELOPE", "GUINESS"));
+			System.out.println("ao ciaoo sono Mia e ho aggiunto un print a caso per pushare");
 			filmOnActorList.forEach(System.out::println);
 		} catch (SQLException e) {
 			System.err.println("inserimento Fallito");
