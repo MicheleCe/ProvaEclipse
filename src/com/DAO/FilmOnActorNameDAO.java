@@ -11,3 +11,4 @@ public interface FilmOnActorNameDAO {
 	public List<FilmOnActorNameVO> getAllFilmOnActorName(FilmOnActorNameDTO filmCategoryDTO) throws SQLException;
 
 }
+// modifica andrea
